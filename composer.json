@@ -1,0 +1,16 @@
+{
+    "name": "artack/svg-inline-bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Artack\\SvgInlineBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ARTACK WebLab GmbH"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

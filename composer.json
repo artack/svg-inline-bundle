@@ -1,16 +1,24 @@
 {
     "name": "artack/svg-inline-bundle",
+    "type": "symfony-bundle",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Artack\\SvgInlineBundle\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "ARTACK WebLab GmbH"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.1",
+        "symfony/http-kernel": "^6.1",
+        "symfony/dependency-injection": "^6.1",
+        "symfony/config": "^6.1",
+        "symfony/string": "^6.1",
+        "twig/twig": "^3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Artack\\SvgInlineBundle\\": "src/"
+        }
+    }
 }

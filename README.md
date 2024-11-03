@@ -18,14 +18,21 @@ Features
 - Compatible with PHP >= 8.1.
 - Compatible with Symfony >= 6.1 (including 7).
 
-
 Installation
 ------------
-
 You can install this bundle through [Composer](https://getcomposer.org):
 
 ```shell
 $ composer require artack/svg-inline-bundle
+```
+
+Configuration
+-----
+Create the configuration file in your `config/packages/artack_svg_inline.yaml` to define the base path for the svg files.
+
+```yaml
+svg_inline:
+    path: "%kernel.project_dir%/assets/ci/icon"
 ```
 
 Usage

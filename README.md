@@ -28,6 +28,15 @@ $ composer require artack/svg-inline-bundle
 
 Configuration
 -----
+Register the bundle in your `config/bundles.php` file.
+```php
+return [
+    ...
+    Artack\SvgInlineBundle\SvgInlineBundle::class => ['all' => true],
+    ...
+];
+```
+
 Create the configuration file in your `config/packages/artack_svg_inline.yaml` to define the base path for the svg files.
 
 ```yaml

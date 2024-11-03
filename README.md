@@ -4,9 +4,9 @@ artack/svg-inline-bundle
 > Twig function to embed svg files as inline svg code into your html code.
 
 
-[![Latest Release](https://img.shields.io/packagist/v/artack/svg-inline-bundle.svg)](https://packagist.org/packages/artack/color)
-[![MIT License](https://img.shields.io/packagist/l/artack/color.svg)](http://opensource.org/licenses/MIT)
-[![Total Downloads](https://img.shields.io/packagist/dt/artack/color.svg)](https://packagist.org/packages/artack/svg-inline-bundle)
+[![Latest Release](https://img.shields.io/packagist/v/artack/svg-inline-bundle.svg)](https://packagist.org/packages/artack/svg-inline-bundle)
+[![MIT License](https://img.shields.io/packagist/l/artack/svg-inline-bundle.svg)](http://opensource.org/licenses/MIT)
+[![Total Downloads](https://img.shields.io/packagist/dt/artack/svg-inline-bundle.svg)](https://packagist.org/packages/artack/svg-inline-bundle)
 
 Developed by [artack](https://www.artack.ch) in Zurich, Switzerland.
 

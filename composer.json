@@ -10,15 +10,19 @@
     "minimum-stability": "stable",
     "require": {
         "php": "^8.1",
-        "symfony/http-kernel": "^6.1",
-        "symfony/dependency-injection": "^6.1",
-        "symfony/config": "^6.1",
-        "symfony/string": "^6.1",
+        "symfony/http-kernel": "^6.1|^7",
+        "symfony/dependency-injection": "^6.1|^7",
+        "symfony/config": "^6.1|^7",
+        "symfony/string": "^6.1|^7",
         "twig/twig": "^3"
     },
     "autoload": {
         "psr-4": {
             "Artack\\SvgInlineBundle\\": "src/"
         }
+    },
+    "scripts": {
+        "phpcs": "tools/php-cs-fixer/vendor/bin/php-cs-fixer fix -vvv --diff --dry-run --allow-risky=yes --ansi",
+        "phpcs:fix": "tools/php-cs-fixer/vendor/bin/php-cs-fixer fix -vvv --allow-risky=yes --ansi"
     }
 }

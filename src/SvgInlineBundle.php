@@ -27,6 +27,4 @@ class SvgInlineBundle extends AbstractBundle
             ->end()
         ;
     }
-
-
 }
